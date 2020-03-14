@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /Users/Nick/.yarn/bin/yarn.js start
+
+PATH: 
+  /Users/Nick/.yarn/bin:/Users/Nick/.config/yarn/global/node_modules/.bin:./bin:./node_modules/.bin:/Users/Nick/.rbenv/shims:/Users/Nick/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  12.3.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/Nick/code/nickstern2/projects/react-practice/streams/api-server/package.json: Unexpected token } in JSON at position 281
+      at JSON.parse (<anonymous>)
+      at /Users/Nick/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/Nick/.yarn/lib/cli.js:304:30)
+      at /Users/Nick/.yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "api-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "homepage": "https://nickstern2.github.io/api-server",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "json-server -p 3001 -w db.json",
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "gh-pages": "^2.2.0",
+      "json-server": "^0.16.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

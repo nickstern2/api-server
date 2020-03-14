@@ -1,0 +1,50 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "wow",
+      "id": 1
+    },
+    {
+      "title": "Test",
+      "description": "3rd stream",
+      "id": 3
+    },
+    {
+      "title": "Test Patch",
+      "description": "Patch request. Tested",
+      "userId": "102070233522844801806",
+      "id": 8
+    },
+    {
+      "title": "Testing",
+      "description": "Testing Delete functionality",
+      "userId": "102070233522844801806",
+      "id": 9
+    },
+    {
+      "title": "fuck yeah son",
+      "description": "Delete working legit ",
+      "userId": "102070233522844801806",
+      "id": 10
+    },
+    {
+      "title": "Coding Challenge",
+      "description": "Twitch Clone",
+      "userId": "102070233522844801806",
+      "id": 11
+    },
+    {
+      "title": "Stream from other gmail",
+      "description": "I said biiiiitch",
+      "userId": "112842040259164646250",
+      "id": 12
+    },
+    {
+      "title": "OBS",
+      "description": "test",
+      "userId": "102070233522844801806",
+      "id": 13
+    }
+  ]
+}
